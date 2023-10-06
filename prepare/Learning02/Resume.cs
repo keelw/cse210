@@ -8,7 +8,7 @@ public class Resume
 
     // Constructor
     public Resume() {
-
+        
     }
 
     public void Display()

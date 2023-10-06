@@ -1,0 +1,8 @@
+Class: Program
+    Purpose: Begin the program, display the menu to the user, call helper functions
+
+Class: Journal
+    Purpose: Create Jorunal objects which will be a list of 
+
+Class: Entry
+
