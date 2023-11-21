@@ -1,0 +1,4 @@
+0
+simple|Simple1|Simple1Desc|50|False
+eternal|Eternal1|Eternal1Desc|10|False
+checklist|Checklist1|Checklist1Desc|15|100|5|0|False
