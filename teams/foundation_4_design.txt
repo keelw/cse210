@@ -1,0 +1,150 @@
+Foundation 1:
+    Program class
+        Creating and managing objects to perform tests
+
+    Comment class
+        Attributes:
+            name, comment content
+
+        Behaviors:
+            Constructor
+            Display the comment
+
+    Video class
+        Attributes:
+            List of comments, title, author, length
+
+        Behaviors:
+            Constructor
+            Getters for all of the above attributes
+            Get the count of comments in each video object
+
+
+Foundation 2:
+    Program class
+        Creating and managing objects to perform tests
+
+    Address class
+        Attributes:
+            state, city, street, county
+
+        Behaviors:
+            Constructor
+            get the address as a string
+            determine if the address is in the US for billing info
+
+    Customer class
+        Attributes:
+            name, address object reference
+
+        Behaviors:
+            Constructor
+            getter for address
+            get if the customer is in the us using method in the address class
+
+    Order class
+        Attributes:
+            customer object, list of product objects, order total, packing label, shipping label
+
+        Behaviors:
+            Constructor
+            calculate the order total
+            add price based on customer location
+            create shipping label
+            create packing label
+            add objects to the product list
+
+    Product class
+        Attributes:
+            name, id, quantity, price
+
+        Behaviors:
+            Constructor
+            getters for the above attributes
+            calculate total order price
+
+
+Foundation 3:
+    Program class
+        Creating and managing objects to perform tests
+
+    Event class : base
+        Attributes:
+            Event title, description, date, time, address
+        
+        Behaviors:
+            Constructor
+            Display standard details
+            Display short description
+    
+    Lecture class : child
+        Attributes:
+            Type, speaker name, capacity
+        
+        Behaviors:
+            Constructor
+            Display full details
+
+    Reception class: child
+        Attributes: 
+            Type, email for RSVP
+            
+        Behaviors:    
+            Constructor
+            Display full details
+
+    Outdoor class: child
+        Attributes: 
+            Type, statement of weather
+    
+        Behaviors:  
+            Constructor  
+            Display full details
+
+
+Foundation 4:
+    Program class
+        Creating and managing objects to perform tests
+
+    Activity class : base
+        Attributes:
+            date, length
+
+        Behaviors:
+            Constructor
+            display the above variables and below info in a summary
+
+            Virtual methods:
+                calculate distance
+                calculate speed
+                calculate pace
+
+    Running class : child
+        Activity:
+            all in parent class
+
+        Behaviors:
+            Constructor
+            override to get distance
+            override to get speed
+            override to get pace
+
+    Cycling class : child
+        Activity:
+            all in parent class
+
+        Behaviors:
+            Constructor
+            override to get distance
+            override to get speed
+            override to get pace
+    
+    Swimming class : child
+        Activity:
+            all in parent class
+
+        Behaviors:
+            Constructor
+            override to get distance
+            override to get speed
+            override to get pace
