@@ -56,7 +56,7 @@ class Program
         Console.WriteLine($"{order2.GetShippingLabel()}");
 
         Console.WriteLine("Order Total:");
-        Console.WriteLine($"{order2.GetTotalPrice()}");
+        Console.WriteLine($"${order2.GetTotalPrice()}");
         Console.WriteLine($"");
     }
 }

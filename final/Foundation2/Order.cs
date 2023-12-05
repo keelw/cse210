@@ -56,7 +56,7 @@ public class Order
         string customerName = _customer.GetName();
         string customerAddress = _customer.GetAddress();
         _shippingLabel = $"{customerName}\n{customerAddress}";
-        return "";
+        return _shippingLabel;
     }
 
     // add products to the list 
